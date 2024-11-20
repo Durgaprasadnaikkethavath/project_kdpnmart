@@ -16,6 +16,7 @@ const Navbar = () => {
     <>
       <Offer />
       <div className="navbar_container">
+        <h1>Navbar</h1>
         <Link to="/" className="heading_link">
           <h1 className="tinos-regular tinos-bold tinos-regular-italic tinos-bold-italic">
             kdpn mart

@@ -8,6 +8,7 @@ const App = () => {
     <>
       <ShopContextProvider>
         <h1>Carousel images</h1>
+        <h1>Next Carousel</h1>
         <Navbar />
         <ImageCarousel />
       </ShopContextProvider>

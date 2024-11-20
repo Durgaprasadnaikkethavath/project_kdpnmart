@@ -6,3 +6,11 @@ export default defineConfig({
   plugins: [react()],
   base: "/project_kdpnmart/",
 });
+
+const config = myFunction();
+
+if (config && config.withConfig) {
+  console.log(config.withConfig);
+} else {
+  console.log("config or config.withConfig is undefined");
+}
